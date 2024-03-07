@@ -19,11 +19,11 @@ const config: QuartzConfig = {
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
-      cdnCaching: false,
+      cdnCaching: true,
       typography: {
-        header: "Shippori Mincho",
-        body: "Shippori Mincho",
-        code: "Shippori Mincho",
+        header: "Shippori Antique",
+        body: "Noto Serif Japanese",
+        code: "IBM Plex Mono",
       },
       colors: {
         lightMode: {
